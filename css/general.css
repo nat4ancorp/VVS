@@ -1,0 +1,273 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* FINALISTS STYLES */
+.FinalistsTable {
+	display: table;
+	width: 100%;
+}
+.ftRow {
+	display: table-row;	
+}
+.ftrCol {
+	display: table-cell;
+	width: 17%;
+	padding-left: 1%;
+	padding-right: 1%;
+	clear: both;
+}
+
+/* RESULTS STYLES */
+.resultsTable {
+	display: table;
+	width: 70%;
+	background: #023449;
+	color: white;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	border: thin solid #E9F8FE;
+
+}
+.rtRow {
+	display: table-row;
+}
+.rtLeftCol {
+	display: table-cell;
+	width: 50%;
+	text-align:left;
+}
+.rtRightCol {
+	display: table-cell;
+}
+.innerResultsTable {
+	display: table;
+	width: 100%;
+}
+.irtRow {
+	display: table-row;	
+}
+.irtLeftCol {
+	display: table-cell;
+	width: 40%;
+	text-align: left;
+}
+.irtLeftColTable {
+	display: table;
+	width: 100%;
+}
+.irtLeftColTableRow {
+	display: table-row;
+}
+.irtLeftColTableRowLeftCol {
+	display: table-cell;
+	text-align: left;
+	width: 50%;
+}
+.irtLeftColTableRowRightCol {
+	display: table-cell;
+	text-align: right;
+}
+.irtRightCol {
+	display: table-cell;
+	text-align: center;
+}
+
+/* MISCELLANEOUS STYLES */
+.progressbar {
+	height: 10px;
+	width: 100px;
+}
+.story {
+	text-align: justify;
+	width: 200px;
+	word-wrap: break-word;
+	margin-left: 10px;
+}
+.story-full {
+	text-align: justify;
+	width: 440px;
+	word-wrap: break-word;
+	margin-left: 0px;
+	padding-top: 10px;
+}
+
+.bold {
+	font-weight: bold;	
+}
+.underline {
+	text-decoration: underline;	
+}
+.center {
+	text-align: center;	
+}
+
+/* ADMIN TABLE STYLES */
+.admin-table {
+	display: table;
+	width: 1000px;
+	border: black thin solid;
+}
+.no-border {
+	border: none !important;
+}
+.admin-tablerow {
+	display: table-row;
+}
+.admin-tablerow1colfull {
+	display: table-cell;
+	width: 100%;
+}
+.admin-tablerow1col {
+	display: table-cell;
+	width: 16.2%;
+	border-bottom: black thin dashed;
+	vertical-align: middle;
+}
+.admin-tablerow2col {
+	display: table-cell;
+	width: 14.2%;
+	border-bottom: black thin dashed;
+	vertical-align: middle;
+}
+.admin-tablerow3col {
+	display: table-cell;
+	width: 14.2%;
+	border-bottom: black thin dashed;
+	vertical-align: middle;
+}
+.admin-tablerow4col {
+	display: table-cell;
+	width: 14.2%;
+	border-bottom: black thin dashed;
+	vertical-align: middle;
+}
+.admin-tablerow5col {
+	display: table-cell;
+	width: 12.2%;
+	border-bottom: black thin dashed;
+	vertical-align: middle;
+}
+.admin-tablerow6col {
+	display: table-cell;
+	width: 12.2%;
+	border-bottom: black thin dashed;
+	vertical-align: middle;
+}
+.admin-tablerow7col {
+	display: table-cell;
+	width: 14.2%;
+	border-bottom: black thin dashed;
+	vertical-align: middle;
+}
+.admin-tablerow1coltop {
+	display: table-cell;
+	width: 16.2%;
+	text-decoration: underline;
+	font-style: bold;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.admin-tablerow2coltop {
+	display: table-cell;
+	width: 14.2%;
+	text-decoration: underline;
+	font-style: bold;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.admin-tablerow3coltop {
+	display: table-cell;
+	width: 14.2%;
+	text-decoration: underline;
+	font-style: bold;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.admin-tablerow4coltop {
+	display: table-cell;
+	width: 14.2%;
+	text-decoration: underline;
+	font-style: bold;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.admin-tablerow5coltop {
+	display: table-cell;
+	width: 12.2%;
+	text-decoration: underline;
+	font-style: bold;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.admin-tablerow6coltop {
+	display: table-cell;
+	width: 12.2%;
+	text-decoration: underline;
+	font-style: bold;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.admin-tablerow7coltop {
+	display: table-cell;
+	width: 14.2%;
+	text-decoration: underline;
+	font-style: bold;
+	border-bottom: black thin solid;
+	text-align: center;
+}
+.admin-response-error {
+	color: red;
+}
+.admin-response-success {
+	color: green;
+}
+.admin-response-tools {
+	color: #000000;
+}
+/* ODDS */
+.placeholder-link {
+	display: inline-block;
+}
+
+/* FORMLAYOUT STYLES */
+.formLayout {
+	display: table;
+	width: 420px;
+	border: thin black solid;
+	padding: 10px;
+}
+.formLayoutRow {
+	display: table-row;
+}
+.formLayoutRowLeftCol {
+	display: table-cell;
+}
+.formLayoutRowRightCol {
+	display: table-cell;
+	vertical-align: middle;
+	width: 30%;
+}
+
+/* FORMLAYOUTMID STYLES */
+.formLayoutMid {
+	display: table;
+	width: 400px;
+	border: thin black solid;
+	padding: 10px;
+}
+.formLayoutMidRow {
+	display: table-row;
+}
+.formLayoutMidRowLeftCol {
+	display: table-cell;
+	width: 60%
+	text-align: left;
+}
+.formLayoutMidRowRightCol {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
