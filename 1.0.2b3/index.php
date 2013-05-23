@@ -884,6 +884,7 @@ if(isset($_GET['page'])){
                     <br />
                     <div class="story"><?php echo "<a href=\"?page=more&id={$id}\" target=\"_blank\">[Read Full Story]</a>";//echo $story;?></div>
                     <br />
+                    <?php if($type=="youtube"){?><a href="http://www.youtube.com/watch_popup?v=<?php echo $sources;?>" target="_blank">Watch Full Screen</a><?php }else{/* NOT YOUTUBE */}?>
                     <center>
 	                	<?php
 						if($properties->RATING_STYLE=="stars"){
@@ -1271,7 +1272,7 @@ if(isset($_GET['page'])){
 	    <h2>Rules</h2>
 	    You <b>may</b> vote <b><?php if($properties->CAN_VOTE_PER == "once"){?>once<?php }else if($properties->CAN_VOTE_PER == "amtentries"){?>once per entry<?php }else if($properties->CAN_VOTE_PER == "inf"){?>as many times as you want<?php }?></b> <?php if($properties->DAILY_VOTING == "yes"){?> per day<?php }else if($properties->DAILY_VOTING == "no"){?><?php }?>
 	    <br />You <b>may</b> <?php if($properties->SHOW_RESULTS_IMM == "no"){?><b>not</b> see the results<?php }else if($properties->SHOW_RESULTS_IMM == "yes"){?> see the results once you vote<?php }?> 
-	    <?php	
+		<?php	
 	}
 	
 	if($properties->DISP_ADMIN_LINK == "yes"){
